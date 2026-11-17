@@ -1,0 +1,32 @@
+# Python & Jupyter cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# VS Code & IDE settings
+.vscode/
+.idea/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Datasets & saved model weights (kept locally on your laptop, never pushed to GitHub)
+data/
+datasets/
+saved_models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.h5
+*.csv
+*.zip
+*.tar.gz
+
+# API keys & OS clutter
+.env
+.DS_Store
+Thumbs.db
